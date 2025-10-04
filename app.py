@@ -7,6 +7,7 @@ load_dotenv()
 
 # Read backend URL from env so containerized app can reach external backend service
 BACKEND_URL = os.environ.get("BACKEND_URL", "http://127.0.0.1:8000/query")
+BACKEND_URL = "https://apthelp-service-458515387636.asia-south2.run.app/query"
 
 st.set_page_config(page_title="Tamil Nadu Bye-laws Q&A", layout="wide")
 st.title("🏢 Tamil Nadu Apartment Bye-laws Q&A")
